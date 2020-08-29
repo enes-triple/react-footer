@@ -7,6 +7,8 @@
   font-family: 'Montserrat';
 }
 
+/* Social icons */
+
 .btn-icon {
   color: #9b9b9b;
   background: #686868;
@@ -16,16 +18,10 @@
   background: #464646;
 }
 
+/* Buttons */
+
 .btn-rounded {
   border-radius: .5rem;
-}
-
-.footer h5 {
-  color: #ebebeb;
-}
-
-.footer h6 a {
-  color: #989898;
 }
 
 .footer.footer.page-footer a.btn {
@@ -33,9 +29,22 @@
   font-size: .9rem;
 }
 
+/* Menu columns */
+
+.footer h5 {
+  color: #ebebeb;
+}
+
+.desc,
+.footer h6 a {
+  color: #989898;
+}
+
 footer.footer.page-footer h6 a:hover {
   color: white;
 }
+
+/* Mobile App Buttons */
 
 .footer .btn-outline-white {
   opacity: .4
@@ -44,6 +53,8 @@ footer.footer.page-footer h6 a:hover {
 .footer .btn-outline-white:hover {
   opacity: 1
 }
+
+/* Logo Area */
 
 .footer .logo-area {
   display: flex;

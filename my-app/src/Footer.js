@@ -3,7 +3,7 @@ import { MDBIcon, MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 
 const FooterPagePro = () => {
   return (
-    <MDBFooter className="page-footer footer font-small pt-4">
+    <MDBFooter className="page-footer footer font-small pt-5">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="3">
@@ -15,10 +15,10 @@ const FooterPagePro = () => {
                 <h6 className="text-uppercase mb-3 mt-4 font-weight-bold">
                     Real Estate is the Where of our stories
                 </h6>
-                <p>
+                <p class="desc">
                     We are focused on building the platform for people and places - To connect the world to where we live, grow, and become.
                 </p>
-                <a href="#!" className="btn btn-md btn-warning mt-3 mb-3" style={{ marginLeft: 0 }}>
+                <a href="#!" className="btn btn-md btn-amber mt-3 mb-3" style={{ marginLeft: 0 }}>
                     JOIN REVERE <MDBIcon icon="arrow-right" className="ml-2" />
                 </a>
             </MDBContainer>
@@ -30,16 +30,16 @@ const FooterPagePro = () => {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <h6 className="pb-2"><a href="#!">The Vision</a></h6>
+                <h6 className="pb-3"><a href="#!">The Vision</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">About Revere</a></h6>
+                <h6 className="pb-3"><a href="#!">About Revere</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Careers</a></h6>
+                <h6 className="pb-3"><a href="#!">Careers</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Legal & Security</a></h6>
+                <h6><a href="#!">Legal & Security</a></h6>
               </li>
             </ul>
           </MDBCol>
@@ -50,13 +50,13 @@ const FooterPagePro = () => {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <h6 className="pb-2"><a href="#!">Buy a Home</a></h6>
+                <h6 className="pb-3"><a href="#!">Buy a Home</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Sell your House</a></h6>
+                <h6 className="pb-3"><a href="#!">Sell your House</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Rent a Place</a></h6>
+                <h6><a href="#!">Rent a Place</a></h6>
               </li>
             </ul>
           </MDBCol>
@@ -67,13 +67,13 @@ const FooterPagePro = () => {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <h6 className="pb-2"><a href="#!">Getting into Real Estate</a></h6>
+                <h6 className="pb-3"><a href="#!">Getting into Real Estate</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Pricing</a></h6>
+                <h6 className="pb-3"><a href="#!">Pricing</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Help Centre</a></h6>
+                <h6><a href="#!">Help Centre</a></h6>
               </li>
             </ul>
           </MDBCol>
@@ -84,23 +84,23 @@ const FooterPagePro = () => {
             </h5>
             <ul className="list-unstyled">
               <li>
-                <h6 className="pb-2"><a href="#!">Support</a></h6>
+                <h6 className="pb-3"><a href="#!">Support</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Find an Agent</a></h6>
+                <h6 className="pb-3"><a href="#!">Find an Agent</a></h6>
               </li>
               <li>
-                <h6 className="pb-2"><a href="#!">Contact Us</a></h6>
+                <h6><a href="#!">Contact Us</a></h6>
               </li>
             </ul>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
       <hr />
-      <div className="text-center py-2">
+      <div className="text-center">
         <ul className="list-unstyled list-inline mb-0">
           <li className="list-inline-item">
-            <h5 className="mb-1">Mobile Apps</h5>
+            <h5 className="mt-2 mb-2">Mobile Apps</h5>
           </li>
           <li className="list-inline-item">
             <a href="#!" className="btn btn-md btn-outline-white btn-rounded">
