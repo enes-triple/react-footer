@@ -18,7 +18,7 @@ const FooterPagePro = () => {
                 <p class="desc">
                     We are focused on building the platform for people and places - To connect the world to where we live, grow, and become.
                 </p>
-                <a href="#!" className="btn btn-md btn-amber mt-3 mb-3" style={{ marginLeft: 0 }}>
+                <a href="#!" className="btn btn-md btn-outline-white footer-cta mt-3 mb-3" style={{ marginLeft: 0 }}>
                     JOIN REVERE <MDBIcon icon="arrow-right" className="ml-2" />
                 </a>
             </MDBContainer>
@@ -103,10 +103,10 @@ const FooterPagePro = () => {
             <h5 className="mt-2 mb-2">Mobile Apps</h5>
           </li>
           <li className="list-inline-item">
-            <a href="#!" className="btn btn-md btn-outline-white btn-rounded">
+            <a href="#!" className="btn btn-md btn-outline-white btn-dark">
                 <MDBIcon fab icon="apple" size="lg" className="mr-2" />iOS
             </a>
-            <a href="#!" className="btn btn-md btn-outline-white btn-rounded">
+            <a href="#!" className="btn btn-md btn-outline-white btn-dark">
                 <MDBIcon fab icon="android" size="lg" className="mr-2" />Android
             </a>
           </li>
@@ -116,27 +116,27 @@ const FooterPagePro = () => {
       <div className="text-center">
         <ul className="list-unstyled list-inline">
           <li className="list-inline-item">
-            <a className="btn-floating btn-sm btn-icon mx-1">
+            <a className="btn-floating btn-sm btn-outline-grey btn-icon mx-1">
               <i className="fab fa-facebook-f"> </i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="btn-floating btn-sm btn-icon mx-1">
+            <a className="btn-floating btn-sm btn-outline-grey btn-icon mx-1">
               <i className="fab fa-twitter"> </i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="btn-floating btn-sm btn-icon mx-1">
+            <a className="btn-floating btn-sm btn-outline-grey btn-icon mx-1">
               <i className="fab fa-google-plus"> </i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="btn-floating btn-sm btn-icon mx-1">
+            <a className="btn-floating btn-sm btn-outline-grey btn-icon mx-1">
               <i className="fab fa-linkedin-in"> </i>
             </a>
           </li>
           <li className="list-inline-item">
-            <a className="btn-floating btn-sm btn-icon mx-1">
+            <a className="btn-floating btn-sm btn-outline-grey btn-icon mx-1">
               <i className="fab fa-dribbble"> </i>
             </a>
           </li>

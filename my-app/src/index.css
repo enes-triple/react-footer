@@ -10,12 +10,21 @@
 /* Social icons */
 
 .btn-icon {
-  color: #9b9b9b;
-  background: #686868;
+  box-shadow: none;
 }
 
 .btn-icon:hover {
-  background: #464646;
+  box-shadow: none;
+}
+
+.btn-icon i {
+  margin-top: -1px;
+  margin-left: -1px;
+  color: #9b9b9b;
+}
+
+.btn-icon:hover i {
+  color: #ebebeb;
 }
 
 /* Buttons */
@@ -46,12 +55,16 @@ footer.footer.page-footer h6 a:hover {
 
 /* Mobile App Buttons */
 
-.footer .btn-outline-white {
+.footer .btn-outline-white.btn-dark {
   opacity: .4
 }
 
-.footer .btn-outline-white:hover {
+.footer .btn-outline-white.btn-dark:hover {
   opacity: 1
+}
+
+.footer .footer-cta {
+  background-color: #242424 !important;
 }
 
 /* Logo Area */
