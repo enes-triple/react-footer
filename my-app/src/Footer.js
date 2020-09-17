@@ -4,9 +4,9 @@ import { MDBIcon, MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 const FooterPagePro = () => {
   return (
     <MDBFooter className="page-footer footer font-small pt-5">
-      <MDBContainer className="text-center text-md-left">
+      <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="4">
+          <MDBCol md="3">
             <MDBContainer>
                 <a class="logo-area" href="#!">
                     <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
@@ -24,7 +24,7 @@ const FooterPagePro = () => {
             </MDBContainer>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2">
+          <MDBCol md="2" className="offset-md-1">
             <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
               Company
             </h5>
