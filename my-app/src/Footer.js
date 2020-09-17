@@ -8,14 +8,14 @@ const FooterPagePro = () => {
         <MDBRow>
           <MDBCol md="3">
             <MDBContainer>
-                <a class="logo-area" href="#!">
+                <a className="logo-area" href="#!">
                     <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
                     <h5 className="font-weight-bold mt-2">REVERE</h5>
                 </a>
                 <h6 className="text-uppercase mb-3 mt-4 font-weight-bold">
                     Real Estate is the Where of our stories
                 </h6>
-                <p class="desc">
+                <p className="desc">
                     We are focused on building the platform for people and places - To connect the world to where we live, grow, and become.
                 </p>
                 <a href="#!" className="btn btn-md btn-outline-white footer-cta mt-3 mb-3" style={{ marginLeft: 0 }}>

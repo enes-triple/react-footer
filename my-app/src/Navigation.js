@@ -23,13 +23,11 @@ class Navigation extends React.Component {
       <div>
         <header>
           <Router>
-            <MDBNavbar color="bg-primary" fixed="top" dark expand="md" scrolling transparent>
+            <MDBNavbar className="bg-nav" fixed="top" dark expand="md" scrolling transparent>
               <MDBContainer>
-                <MDBNavbarBrand href="/">
-                  <a class="logo-area" href="#!">
-                    <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
-                    <h5 className="font-weight-bold mt-2">REVERE</h5>
-                  </a>
+                <MDBNavbarBrand href="/" className="logo-area">
+                  <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
+                  <h5 className="font-weight-bold mt-2">REVERE</h5>
                 </MDBNavbarBrand>
                 {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
                 <MDBCollapse isOpen={this.state.collapse} navbar>
