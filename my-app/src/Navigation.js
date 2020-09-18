@@ -1,8 +1,9 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
+import { Navigation } from './Navigation/Navigation';
 import { BrowserRouter as Router } from 'react-router-dom';
 
-class Navigation extends React.Component {
+class NavbarNew extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -22,31 +23,7 @@ class Navigation extends React.Component {
     return (
       <div>
         <header>
-          <Router>
-            <MDBNavbar className="bg-nav" fixed="top" dark expand="md" scrolling transparent>
-              <MDBContainer>
-                <MDBNavbarBrand href="/" className="logo-area">
-                  <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
-                  <h5 className="font-weight-bold mt-2">REVERE</h5>
-                </MDBNavbarBrand>
-                {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
-                <MDBCollapse isOpen={this.state.collapse} navbar>
-                  <MDBNavbarNav right>
-                    <MDBNavItem active>
-                      <MDBNavLink to="#">Home</MDBNavLink>
-                    </MDBNavItem>
-                    <MDBNavItem>
-                      <MDBNavLink to="#">Link</MDBNavLink>
-                    </MDBNavItem>
-                    <MDBNavItem>
-                      <MDBNavLink to="#">Profile</MDBNavLink>
-                    </MDBNavItem>
-                  </MDBNavbarNav>
-                </MDBCollapse>
-              </MDBContainer>
-            </MDBNavbar>
-          </Router>
-
+          <Navigation />
           <MDBView src="https://mdbootstrap.com/img/Photos/Others/img%20(40).jpg">
             <MDBMask overlay="purple-light" className="flex-center flex-column text-white text-center">
               <h2>This Navbar is fixed</h2>
@@ -67,4 +44,4 @@ class Navigation extends React.Component {
   }
 }
 
-export default Navigation;
+export default NavbarNew;
