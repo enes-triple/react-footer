@@ -1,0 +1,4 @@
+.navigationDrawerSection {
+  display: flex;
+  flex-direction: column;
+}

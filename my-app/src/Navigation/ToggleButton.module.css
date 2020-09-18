@@ -1,0 +1,15 @@
+.button {
+  background: none;
+  padding: 0;
+  border: 0;
+  font-size: 1.72em;
+  color:white;
+  outline: 0;
+  opacity: 0.82;
+  cursor: pointer;
+  transition: opacity 100ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.button:hover {
+  opacity: 1;
+}

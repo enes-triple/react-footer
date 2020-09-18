@@ -1,0 +1,23 @@
+.navigationBar {
+  color: #ffffff;
+  background-color: transparent;
+
+  padding: 0 20px;
+
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2000;
+
+  transition: background 500ms cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.scrolled {
+  background-color: #1b1c21;
+}
+

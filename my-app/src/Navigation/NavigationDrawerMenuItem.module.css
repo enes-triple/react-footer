@@ -1,0 +1,21 @@
+.item {
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.item>a {
+  line-height: 45px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  opacity: 0.82;
+  width: 100%;
+  padding: 0 32px;
+
+}
+
+.item:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.1)
+}
