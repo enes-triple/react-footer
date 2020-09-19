@@ -6,7 +6,7 @@ const FooterPagePro = () => {
     <MDBFooter className="page-footer footer font-small pt-5">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
-          <MDBCol md="3">
+          <MDBCol md="4">
             <MDBContainer>
                 <a className="logo-area" href="#!">
                     <img src="https://reverehome.ca/assets/icons/footerLogo.png" alt="logo" />
@@ -24,75 +24,83 @@ const FooterPagePro = () => {
             </MDBContainer>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2" className="offset-md-1">
-            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Company
-            </h5>
-            <ul className="list-unstyled">
-              <li>
-                <h6 className="pb-3"><a href="#!">The Vision</a></h6>
-              </li>
-              <li>
-                <h6 className="pb-3"><a href="#!">About Revere</a></h6>
-              </li>
-              <li>
-                <h6 className="pb-3"><a href="#!">Careers</a></h6>
-              </li>
-              <li>
-                <h6><a href="#!">Legal & Security</a></h6>
-              </li>
-            </ul>
+          <MDBCol md="2" className="d-flex justify-content-center">
+            <div>
+              <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
+                Company
+              </h5>
+              <ul className="list-unstyled">
+                <li>
+                  <h6 className="pb-3"><a href="#!">The Vision</a></h6>
+                </li>
+                <li>
+                  <h6 className="pb-3"><a href="#!">About Revere</a></h6>
+                </li>
+                <li>
+                  <h6 className="pb-3"><a href="#!">Careers</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!">Legal & Security</a></h6>
+                </li>
+              </ul>
+            </div>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2">
-            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Services
-            </h5>
-            <ul className="list-unstyled">
-              <li>
-                <h6 className="pb-3"><a href="#!">Buy a Home</a></h6>
-              </li>
-              <li>
-                <h6 className="pb-3"><a href="#!">Sell your House</a></h6>
-              </li>
-              <li>
-                <h6><a href="#!">Rent a Place</a></h6>
-              </li>
-            </ul>
+          <MDBCol md="2" className="d-flex justify-content-center">
+            <div>
+              <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
+                Services
+              </h5>
+              <ul className="list-unstyled">
+                <li>
+                  <h6 className="pb-3"><a href="#!">Buy a Home</a></h6>
+                </li>
+                <li>
+                  <h6 className="pb-3"><a href="#!">Sell your House</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!">Rent a Place</a></h6>
+                </li>
+              </ul>
+            </div>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2">
-            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Resources
-            </h5>
-            <ul className="list-unstyled">
-              <li>
-                <h6 className="pb-3"><a href="#!">Getting into Real Estate</a></h6>
-              </li>
-              <li>
-                <h6 className="pb-3"><a href="#!">Pricing</a></h6>
-              </li>
-              <li>
-                <h6><a href="#!">Help Centre</a></h6>
-              </li>
-            </ul>
+          <MDBCol md="2" className="d-flex justify-content-center">
+            <div>
+              <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
+                Resources
+              </h5>
+              <ul className="list-unstyled">
+                <li>
+                  <h6 className="pb-3"><a href="#!">Getting into Real Estate</a></h6>
+                </li>
+                <li>
+                  <h6 className="pb-3"><a href="#!">Pricing</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!">Help Centre</a></h6>
+                </li>
+              </ul>
+            </div>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
-          <MDBCol md="2">
-            <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-              Contact
-            </h5>
-            <ul className="list-unstyled">
-              <li>
-                <h6 className="pb-3"><a href="#!">Support</a></h6>
-              </li>
-              <li>
-                <h6 className="pb-3"><a href="#!">Find an Agent</a></h6>
-              </li>
-              <li>
-                <h6><a href="#!">Contact Us</a></h6>
-              </li>
-            </ul>
+          <MDBCol md="2" className="d-flex justify-content-center">
+            <div>
+              <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
+                Contact
+              </h5>
+              <ul className="list-unstyled">
+                <li>
+                  <h6 className="pb-3"><a href="#!">Support</a></h6>
+                </li>
+                <li>
+                  <h6 className="pb-3"><a href="#!">Find an Agent</a></h6>
+                </li>
+                <li>
+                  <h6><a href="#!">Contact Us</a></h6>
+                </li>
+              </ul>
+            </div>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
