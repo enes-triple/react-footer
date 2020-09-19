@@ -21,3 +21,10 @@
   background-color: #1b1c21;
 }
 
+
+@media screen and (max-width: 768px) {
+  .navigationBar {
+    background-color: #1b1c21;
+  }
+}
+
